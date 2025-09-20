@@ -89,14 +89,13 @@ function displayCourses(subject) {
 
     const filtered = courses.filter((course) => course.subject === subject || subject === 'ALL');
 
-    let sumCredit = 0
+    const totalCredit = filtered.reduce((accumulator, course) => accumulator +  course.credits, 0);
 
     filtered.forEach((course) => {
         courseList.innerHTML += `<li>${course.completed ? '✅' : ''} ${course.subject} ${course.number}</li>`;
-        sumCredit += course.credits;
     });
 
-    credits.textContent = sumCredit
+    credits.textContent = totalCredit;
 }
 
 displayCourses('ALL');
