@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 | Juan Pariente</title>
+    <meta name="description" content="WDD 231 | Home Page">
+    <meta name="author" content="Juan Pariente">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/site-logo.svg" alt="site logo" width="1" height="1">
+        <span>Juan Pariente</span>
+        <button id="ham-button" class="hamburger" aria-label="abrir menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="main-sections">
+            <section class="aboutme">
+                <h2>About Me</h2>
+                <p>My name is Juan Pariente. I was born in Montevideo, Uruguay. I love spending time with my family and friends, traveling, watching movies, and learning new things. I'm interested in backend development. I like working with logic, data, and making things work behind the scenes. I want to keep learning more in this area and use my knowledge in real projects that make a difference.</p>
+            </section>
+            <section class="studentphoto">
+                <h2>Student Photo</h2>
+                <div>
+                    <img class="profile" src="images/profile.webp" alt="profile" width="1" height="1">
+                </div>
+            </section>
+            <section class="certificate">
+                <h2>Web Certificate Courses</h2>
+                <div id="buttons" class="filterbutton">
+                    <button id="all">All Courses</button>
+                    <button id="cse">WDD Courses</button>
+                    <button id="wdd">CSE Courses</button>
+                </div>
+                <ul id="courses" class="courseslist"></ul>
+                <p>The total credits for the course listed above is <span id="credits"></span></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/juannpariente"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/juan-pariente-083778344/"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://x.com/"><img src="images/twitter-x.svg" alt="twitter-x" width="16" height="16"></a>
+        </div>
+        <div class="date">
+            <p>©<span id="currentyear"></span> ♠ Juan Pariente ♠ Melo, Uruguay</p>
+            <p>Last Modification: <span id="lastmodified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
