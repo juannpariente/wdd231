@@ -1,0 +1,197 @@
+* {
+    font-family: "Inter";
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 40px auto 44px;
+    column-gap: 10px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    color: #0A2540;
+    font-size: 1.3rem;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #0A2540;
+    cursor: pointer;
+    font-family: Verdana
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: #0A2540;
+    padding: 1rem;
+}
+
+.navigation a:hover {
+    background-color: #bebebe;
+}
+
+.current {
+    background-color: #e2e2e2;
+}
+
+h1 {
+    color: #0A2540;
+    padding-left: 7.5%;
+    margin-top: 1rem;
+}
+
+.main-sections {
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-sections h2 {
+    text-align: center;
+    background-color: #0A2540;
+    color: white;
+    padding: 5px 0;
+    font-size: 1.2rem;
+}
+
+.aboutme {
+    background-color: #e2e2e2;
+}
+
+.aboutme p {
+    padding: 10px;
+    
+}
+
+.studentphoto div {
+    background-color: #e2e2e2;
+    padding: 35px;
+}
+
+.studentphoto img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 17px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.filterbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.filterbutton button {
+    flex: 1 1;
+    height: 40px;
+    background-color: #d4d4d4;
+    color: #0A2540;
+    border: solid 2px #0A2540;
+    margin: 15px 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filterbutton button:hover {
+    background-color: #0A2540;
+    color: white;
+}
+
+.courseslist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.courseslist li {
+    background-color: #0A2540;
+    color: white;
+    padding: 10px;
+    flex: 1 1 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.certificate p {
+    text-align: center;
+    margin: 10px 0 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 15px 0 10px;
+}
+
+.social a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #bebebe;
+    border-radius: 18px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.social a:hover {
+    background-color: #bebebe;
+}
+
+.date {
+    background-color: #dbdbdb;
+    padding: 1rem;
+}
