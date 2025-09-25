@@ -1,0 +1,170 @@
+* {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------- HEADER ----------------- */
+
+.logo-title {
+    display: grid;
+    grid-template-columns: 40px auto 44px;
+    column-gap: 10px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    background-color: #222222;
+}
+
+.logo-title img {
+    width: 100%;
+    height: auto;
+}
+
+.logo-title span {
+    color: white;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #00a1d6;
+    cursor: pointer;
+    font-family: Verdana
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: #006080;
+    padding: 1rem;
+}
+
+.navigation a:hover {
+    background-color: #bebebe;
+}
+
+.current {
+    background-color: #d1d1d1;
+}
+
+/* ----------------- DIRECTORY PAGE ----------------- */
+
+#grid, #list {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 20%;
+    height: auto;
+    color: #006080;
+    border: 2px solid #006080;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.grid {
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    text-align: center;
+    padding: 10px;
+}
+
+.grid section {
+    box-shadow: 0px 0px 10px 2px black;
+    padding: 10px;
+    background-color: #d6e8ee;
+}
+
+.grid section p {
+    margin: 7px 0;
+    text-align: left;
+}
+
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list img,
+.list p:nth-child(2),
+.list p:nth-child(3),
+.list p:nth-child(4),
+.list p:nth-child(6),
+.list p:nth-child(7) {
+    display: none;
+}
+
+.list section {
+    margin: 0 15px;
+    padding: 5px;
+    border: 2px solid #222222;
+}
+
+
+#cards section h3 {
+    color: #006080;
+}
+
+/* ----------------- FOOTER ----------------- */
+
+footer {
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 10px 0;
+}
+
+.social a {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    border-radius: 28px;
+    margin: 10px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
