@@ -5,7 +5,7 @@
         "address": "1420 Juan M. Ferrari Ave, Montevideo",
         "phone": "+598 2 345 6789",
         "website": "https://auroratech.uy",
-        "image": "aurora-tech.png",
+        "image": "aurora-tech.svg",
         "membershipLevel": 3,
         "description": "Software development and artificial intelligence company."
     },
@@ -14,7 +14,7 @@
         "address": "2500 Camino Carrasco, Montevideo",
         "phone": "+598 2 456 7890",
         "website": "https://estancianatural.uy",
-        "image": "estancia-natural.png",
+        "image": "estancia-natural.svg",
         "membershipLevel": 2,
         "description": "Producers of organic and healthy food products."
     },
@@ -23,7 +23,7 @@
         "address": "860 Arocena Ave, Carrasco, Montevideo",
         "phone": "+598 2 567 8901",
         "website": "https://urbanaarquitectura.uy",
-        "image": "urbana-architecture.png",
+        "image": "urbana-architecture.svg",
         "membershipLevel": 1,
         "description": "Architecture firm focused on sustainable design projects."
     },
@@ -32,7 +32,7 @@
         "address": "3100 Tomas Berreta Blvd, Montevideo",
         "phone": "+598 2 234 5678",
         "website": "https://solymarviajes.uy",
-        "image": "sol-y-mar.png",
+        "image": "sol-y-mar.svg",
         "membershipLevel": 2,
         "description": "Travel agency for both local and international tourism."
     },
@@ -41,7 +41,7 @@
         "address": "1190 Costa Rica St, Montevideo",
         "phone": "+598 2 678 9012",
         "website": "https://ferrolegal.uy",
-        "image": "ferro-legal.png",
+        "image": "ferro-legal.svg",
         "membershipLevel": 3,
         "description": "Law firm specialized in corporate and commercial law."
     },
@@ -50,7 +50,7 @@
         "address": "6230 Italia Ave, Montevideo",
         "phone": "+598 2 321 4567",
         "website": "https://vitafarma.uy",
-        "image": "vita-pharma.png",
+        "image": "vita-pharma.svg",
         "membershipLevel": 1,
         "description": "Pharmaceutical distributor with nationwide reach."
     },
@@ -59,7 +59,7 @@
         "address": "3700 Camino Maldonado, Montevideo",
         "phone": "+598 2 765 4321",
         "website": "https://ecolimpio.uy",
-        "image": "eco-limpio.png",
+        "image": "eco-limpio.svg",
         "membershipLevel": 2,
         "description": "Eco-friendly cleaning services for businesses and institutions."
     }
