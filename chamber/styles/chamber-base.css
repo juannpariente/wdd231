@@ -71,6 +71,11 @@
 
 /* ----------------- DIRECTORY PAGE ----------------- */
 
+h1 {
+    margin: 10px 0 0 15px;
+    color: #006080;
+}
+
 #grid, #list {
     padding: 10px;
     margin: 10px;
