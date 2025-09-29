@@ -62,11 +62,13 @@
 }
 
 .navigation a:hover {
-    background-color: #bebebe;
+    color: white;
+    background-color: #006080;
 }
 
-.current {
-    background-color: #d1d1d1;
+.current a {
+    color: white;
+    background-color: #006080;
 }
 
 /* ----------------- DIRECTORY PAGE ----------------- */
@@ -84,6 +86,12 @@ h1 {
     height: auto;
     color: #006080;
     border: 2px solid #006080;
+    background-color: white;
+}
+
+#grid:hover, #list:hover {
+    background-color: #006080;
+    color: white;
 }
 
 .buttons {
@@ -91,7 +99,6 @@ h1 {
 }
 
 .grid {
-    
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
@@ -109,8 +116,6 @@ h1 {
     margin: 7px 0;
     text-align: left;
 }
-
-
 
 .list {
     display: flex;
