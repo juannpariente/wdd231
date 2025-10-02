@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Montevideo Chamber of Commerce</title>
-    <meta name="description" content="WDD 231 | Montevideo Chamber of Commerce | directory page">
+    <meta name="description" content="WDD 231 | Montevideo Chamber of Commerce | Home page">
     <meta name="author" content="Juan Pariente">
     <meta property="og:title" content="Montevideo Chamber of Commerce">
-    <meta property="og:description" content="WDD 231 | Montevideo Chamber of Commerce | directory page">
+    <meta property="og:description" content="WDD 231 | Montevideo Chamber of Commerce | Home page">
     <meta property="og:image" content="https://juannpariente.github.io/wdd231/chamber/images/">
     <meta property="og:url" content="https://juannpariente.github.io/wdd231/chmaber/directory.html">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="styles/chamber-large.css">
     <link rel="icon" href="images/favicon.ico">
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/home-weather.js" defer></script>
+    <script src="scripts/home-member.js" defer></script>
     <script src="scripts/date.js" defer></script>
 
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,20 +32,61 @@
         </div>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
-        <div class="buttons">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
-        </div>
-        <div id="cards" class="grid"></div>
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero-img.webP" media="(min-width: 400px)">
+                <img class="hero-img" src="images/hero-small.webp" alt="hero" loading="lazy" width="1" height="1">
+            </picture>
+            <div class="hero-cta">
+                <p>Where business meets opportunity</p>
+                <a href="#">Become a Member</a>
+            </div>
+        </section>
+        <h1>Home</h1>
+        <section class="home-cards">
+            <section>
+                <h2>Events</h2>
+                <div class="events">
+                    <p>
+                        Business Innovation Forum 2025 - October 12 <br>
+                        Torre de las Telecomunicaciones
+                    </p>
+                    <p>
+                        B2B Meetup: Connect Montevideo - October 20 <br>
+                        Montevideo Chamber of Commerce
+                    </p>
+                    <p>
+                        Entrepreneur Expo 2025 - November 10-12 <br>
+                        LATU (Laboratorio Tecnológico del Uruguay)
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+                <div class="current-weather">
+                    <img id="weathericon" src="" alt="">
+                    <p id="temp"></p>
+                    <p id="weatherdesc"></p>
+                </div>
+            </section>
+            <section>
+                <h2>Weather Forecast</h2>
+                <div class="forecast">
+                    <p id="day1"></p>
+                    <p id="day2"></p>
+                    <p id="day3"></p>
+                </div>
+            </section>
+            <section id="member-cards" class="m-cards"></section>
+        </section>
     </main>
     <footer>
         <div class="address">

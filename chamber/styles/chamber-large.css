@@ -2,7 +2,7 @@
 
     /* ----------------- Header -------------------- */
 
-    header, main, footer {
+    main {
         max-width: 1000px;
         margin: 0 auto;
     }
@@ -46,6 +46,39 @@
         margin: 0 15px;
         padding: 5px;
         border: 2px solid #222222;
+    }
+
+    /* ----------------- HOME PAGE ----------------- */
+
+    .hero-cta p {
+        font-size: 1.1rem;
+    }
+
+    .hero-cta a {
+        font-size: 1.3rem;
+    }
+
+    .home-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .current-weather {
+        font-size: 1.2rem;
+    }
+
+    .forecast p {
+        font-size: 1.4rem;
+    }
+
+    .m-cards {
+        display: flex;
+        gap: 15px;
+        grid-column: 1 / 4;
+    }
+
+    .m-cards div {
+        flex: 1;
     }
 
     /* ------------------- FOOTER ------------------------- */

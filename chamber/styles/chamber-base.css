@@ -142,6 +142,128 @@ h1 {
     color: #006080;
 }
 
+/* ----------------- HOME PAGE ----------------- */
+
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+}
+
+.hero-cta {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    background-color: #22222275;
+    border: 3px solid #00a1d6;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-cta p {
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.hero-cta a {
+    display: inline-block;
+    text-decoration: none;
+    color: #222222;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f39c12;
+    border: 2px solid #222222;
+    padding: 8px;
+    margin-top: 3px;
+    box-shadow: 0 0 3px 1px #222222;
+    border-radius: 4px;
+}
+
+.hero-cta a:hover {
+    background-color: #9c650d;
+}
+
+.home-cards section {
+    margin: 15px;
+}
+
+.home-cards h2 {
+    text-align: center;
+    background-color: #006080;
+    color: white;
+    padding: 5px;
+}
+
+.home-cards section {
+    background-color: #d6e8ee;
+}
+
+.events {
+    padding: 7px;
+}
+
+.events p {
+    border-left: 2px solid #006080;
+    padding-left: 12px;
+    margin-bottom: 15px;
+}
+
+.current-weather {
+    text-align: center;
+    padding: 7px;
+}
+
+/* .current-weather img {
+    width: 50%;
+    height: auto;
+} */
+
+.forecast {
+    padding-left: 21px;
+}
+
+.forecast p {
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.home-cards .m-cards {
+    background-color: white;
+}
+
+.m-cards div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 3px solid #00a1d6;
+    background-color: #d6e8ee;
+    border-radius: 5px;
+}
+
+.m-cards div h3 {
+    grid-column: 1 / 3;
+    text-align: center;
+    border-bottom: 3px solid #00a1d6;
+    padding: 5px 0;
+    color: #006080;
+}
+
+.m-cards div img {
+    width: 100%;
+    height: auto;
+    grid-row: 2 / 6;
+}
+
 /* ----------------- FOOTER ----------------- */
 
 footer {
