@@ -38,4 +38,11 @@
     .certificate {
         grid-column: 1 / 3;
     }
+
+    .course-details {
+        align-self: center;
+        max-width: 500px;
+        width: 90%;
+        margin: 0 auto;
+    }
 }

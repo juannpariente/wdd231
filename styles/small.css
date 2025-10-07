@@ -142,23 +142,72 @@ h1 {
     gap: 15px;
     justify-content: center;
     text-align: center;
-    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.courseslist li {
+.courseslist button {
     background-color: #0A2540;
     color: white;
     padding: 10px;
-    flex: 1 1 200px;
-    height: 20px;
+    max-width: 300px;
+    flex: 1 1 250px;
     border-radius: 5px;
 }
 
-.certificate p {
+.courseslist button:hover {
+    background-color: #bebebe;
+    color: black;
+}
+
+.certificate > p {
     text-align: center;
     margin: 10px 0 5px;
+}
+
+.course-details {
+    align-self: center;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #0A2540;
+    box-shadow: 0 0 15px 2px black;
+}
+
+.course-details > * {
+    margin-bottom: 12px;
+}
+
+.course-details button::before {
+    content: "\00D7";
+    font-size: 1.4rem;
+}
+
+.course-details button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    font-family: Verdana
+}
+
+.course-details button:hover {
+    background-color: #bebebe;
+    border: none;
+    border-radius: 2px;
+}
+
+.course-details h2 {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-details::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer {
