@@ -81,6 +81,24 @@
         flex: 1;
     }
 
+    /* ----------------- JOIN PAGE ----------------- */
+
+    .form-section {
+        width: 40%;
+    }
+
+    .join-form {
+        margin: 0;
+    }
+
+    .membership-levels {
+        width: 60%;
+    }
+
+    .membership-levels div {
+        width: 80%;
+    }
+
     /* ------------------- FOOTER ------------------------- */
 
     footer {
