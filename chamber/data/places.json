@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Museo Nacional de Artes Visuales",
+    "description": "Uruguay's most important public museum of visual arts, with permanent and temporary exhibitions, located in Parque Rodó.",
+    "address": "Tomás Giribaldi 2283 esq. Julio Herrera y Reissig, Parque Rodó, Montevideo, Uruguay",
+    "cost": "Free",
+    "photo_url": "Museo-Nacional-de-Artes-Visuales.JPG"
+  },
+  {
+    "name": "Teatro Solís",
+    "description": "Historic main theatre in Montevideo offering guided tours and a variety of cultural performances (opera, concerts, theater).",
+    "address": "Reconquista S/N, corner Bartolomé Mitre, Ciudad Vieja, Montevideo, Uruguay",
+    "cost": "Guided tour: ~ UYU 90",
+    "photo_url": "Teatro-Solis-Montevideo.webp"
+  },
+  {
+    "name": "Fortaleza del Cerro (Fortaleza General Artigas)",
+    "description": "Hilltop fortress overlooking Montevideo Bay, with a military museum and panoramic views of the city and river.",
+    "address": "Av. José Batlle y Ordóñez S/N, Cerro, Montevideo, Uruguay",
+    "cost": "Approx. UYU 50",
+    "photo_url": "Fortaleza-del-Cerro.webp"
+  },
+  {
+    "name": "Museo de Artes Decorativas (Palacio Taranco)",
+    "description": "Elegant historic mansion turned museum, exhibiting decorative arts, period furniture, and domestic life of early 20th century Uruguay.",
+    "address": "25 de Mayo 376, corner Solís, Ciudad Vieja, Montevideo, Uruguay",
+    "cost": "Free",
+    "photo_url": "Palacio-Taranco.webp"
+  },
+  {
+    "name": "Mercado del Puerto",
+    "description": "Famous gastronomic market in Ciudad Vieja with parrillas, food stalls, lively atmosphere, ideal to try Uruguayan asado and local cuisine.",
+    "address": "Piedras 237 (Pérez Castellano), Ciudad Vieja, Montevideo, Uruguay",
+    "cost": "Free (entry free; you pay for food/drinks)",
+    "photo_url": "Mercado-del-Puerto.webp"
+  },
+  {
+    "name": "Plaza Independencia (Mausoleum of Artigas)",
+    "description": "Montevideo's principal square; contains the statue and mausoleum of José Artigas, and is surrounded by key landmarks.",
+    "address": "Plaza Independencia, Montevideo, Uruguay",
+    "cost": "Free",
+    "photo_url": "Plaza-Independencia.webp"
+  },
+  {
+    "name": "Playa Pocitos",
+    "description": "One of Montevideo's most visited urban beaches, with a long promenade ideal for walking, relaxing, and enjoying city views by the Río de la Plata.",
+    "address": "Pocitos, Montevideo, Uruguay",
+    "cost": "Free",
+    "photo_url": "Playa-Pocitos.webp"
+  },
+  {
+    "name": "Ciudad Vieja (Old Town)",
+    "description": "Historic old quarter of Montevideo: pedestrian streets, colonial architecture, galleries, cafes, the Puerta de la Ciudadela and local art scenes.",
+    "address": "Ciudad Vieja, Montevideo, Uruguay",
+    "cost": "Free to walk around (museums/shops inside may charge)",
+    "photo_url": "Ciudad-Vieja.webp"
+  }
+]
