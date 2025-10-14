@@ -435,6 +435,72 @@ input:required:valid {border-left-color: #00b800;}
     color: #006080;
 }
 
+/* ----------------- JOIN PAGE ----------------- */
+
+#message {
+    margin: 15px 15px 0;
+    color: #006080;
+}
+
+#place-cards div {
+    margin: 20px auto;
+    width: 95%;
+    border: 1px solid #222222;
+    background-color: #d6e8ee;
+    border-radius: 5px;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photo"
+    "description"
+    "location"
+    "button";
+}
+
+#place-cards h2 {
+    margin: 10px;
+    color: #006080;
+    grid-area: name;
+    font-size: 1.2rem;
+}
+
+#place-cards img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    grid-area: photo;
+    justify-self: center;
+}
+
+
+#place-cards address {
+    margin: 10px;
+    grid-area: location;
+}
+
+#place-cards p {
+    margin: 10px;
+    grid-area: description;
+}
+
+#place-cards button {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    justify-self: center;
+    padding: 10px;
+    background-color: #00a1d6;
+    border: 2px outset #006080;
+    border-radius: 5px;
+    grid-area: button;
+    font-size: 1.1rem;
+}
+
+#place-cards button:hover {
+    background-color: #006080;
+}
+
 /* ----------------- FOOTER ----------------- */
 
 footer {

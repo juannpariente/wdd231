@@ -99,11 +99,43 @@
         width: 80%;
     }
 
+    /* ----------------- DISCOVER PAGE ----------------- */
+
+    #place-cards div {
+        grid-template-areas: 
+        "name name"
+        "photo description"
+        "photo location"
+        "button button";
+    }
+
+    #place-cards img {
+    filter: saturate(80%);
+    }
+
+    #place-cards img:hover {
+        filter: saturate(150%);
+    }
+
     /* ------------------- FOOTER ------------------------- */
 
     footer {
         display: flex;
         justify-content: space-between;
         margin-top: 10px;
+    }
+}
+
+/* ----------------- DISCOVER PAGE ----------------- */
+
+@media only screen and (min-width: 60rem) {
+    #place-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #place-cards img {
+        width: 100%;
+        height: 200px;
     }
 }
