@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Hades II",
+    "genre": "Action",
+    "year": 2025,
+    "rating": 94,
+    "image": "hades-2.webp"
+  },
+  {
+    "name": "Clair Obscur: Expedition 33",
+    "genre": "RPG",
+    "year": 2025,
+    "rating": 93,
+    "image": "clair-obscur-expedition-33.webp"
+  },
+  {
+    "name": "Hollow Knight: Silksong",
+    "genre": "Adventure",
+    "year": 2025,
+    "rating": 91,
+    "image": "hollow-knight-silksong.webp"
+  },
+  {
+    "name": "Split Fiction",
+    "genre": "Adventure",
+    "year": 2025,
+    "rating": 91,
+    "image": "split-fiction.webp"
+  },
+  {
+    "name": "Silent Hill f",
+    "genre": "Horror",
+    "year": 2025,
+    "rating": 90,
+    "image": "silent-hill-f.webp"
+  },
+  {
+    "name": "Kingdom Come: Deliverance II",
+    "genre": "RPG, Action",
+    "year": 2025,
+    "rating": 88,
+    "image": "kingdom-come-deliverance-2.webp"
+  },
+  {
+    "name": "Monster Hunter Wilds",
+    "genre": "Action, Adventure",
+    "year": 2025,
+    "rating": 88,
+    "image": "monster-hunter-wilds.webp"
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "genre": "RPG, Action",
+    "year": 2015,
+    "rating": 93,
+    "image": "the-witcher-3-wild-hunt.webp"
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "genre": "Action, Adventure",
+    "year": 2018,
+    "rating": 93,
+    "image": "red-dead-redemption-2.webp"
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "genre": "RPG, Action",
+    "year": 2020,
+    "rating": 87,
+    "image": "cyberpunk-2077.webp"
+  },
+  {
+    "name": "Sekiro: Shadows Die Twice",
+    "genre": "Action, Adventure",
+    "year": 2019,
+    "rating": 90,
+    "image": "sekiro-shadows-die-twice.webp"
+  },
+  {
+    "name": "DOOM Eternal",
+    "genre": "Action, Shooter",
+    "year": 2020,
+    "rating": 89,
+    "image": "doom-eternal.webp"
+  },
+  {
+    "name": "Death Stranding",
+    "genre": "Action, Adventure",
+    "year": 2019,
+    "rating": 82,
+    "image": "death-stranding.webp"
+  },
+  {
+    "name": "Hades",
+    "genre": "Roguelike, Action",
+    "year": 2020,
+    "rating": 93,
+    "image": "hades.webp"
+  },
+  {
+    "name": "Battlefield 6",
+    "genre": "Shooter, Action",
+    "year": 2025,
+    "rating": 84,
+    "image": "battlefield-6.webp"
+  },
+  {
+    "name": "Resident Evil 4 Remake",
+    "genre": "Horror, Action",
+    "year": 2023,
+    "rating": 89,
+    "image": "resident-evil-4-remake.webp"
+  }
+]
