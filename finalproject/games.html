@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGames | Games</title>
+    <meta name="description" content="WDD 231 | Final Project | PGames Games Page">
+    <meta name="author" content="Juan Pariente">
+    <meta property="og:title" content="PGames | Games">
+    <meta property="og:description" content="WDD 231 | Final Project | PGames Page">
+    <meta property="og:image" content="https://juannpariente.github.io/wdd231/finalproject/images/hero2">
+    <meta property="og:url" content="https://juannpariente.github.io/wdd231/finalproject/games.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/pgames-small.css">
+    <link rel="stylesheet" href="styles/pgames-large.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/games.js"></script>
+    <script src="scripts/date.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="images/logo.webp" alt="site logo" width="1" height="1">
+            <span>Games</span>
+            <button id="ham-btn" class="hamburger" aria-label="abrir menu"></button>
+        </div>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="games.html">Games</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Games</h1>
+        <div id="game-cards" class="games-grid"></div>
+        <dialog id="game-details" class="dialog-details"></dialog>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> | PGames | Juan Pariente</p>
+    </footer>
+</body>
+</html>
